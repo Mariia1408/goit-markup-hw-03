@@ -51,7 +51,7 @@ button {
     cursor: pointer;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -153,15 +153,15 @@ button {
 
 .hero {
     background-color: var(--main-color);
+    padding-top: 188px;
     padding-bottom: 188px;
 }
 
 .hero-title {
     display: block;
     margin: 0 auto 48px auto;
-    padding-top: 188px;
     text-align: center;
-    width: 494px;
+    width: 496px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -231,6 +231,7 @@ button {
 /* -----------------------------WORK------------------------ */
 
 .work {
+    pd: 120px;
     padding-bottom: 120px;
 }
 
@@ -246,10 +247,7 @@ button {
 
 .work-list {
     display: flex;
-}
-
-.work-item {
-    padding-bottom: 120px;
+    gap: 24px;
 }
 
 .work-text {
@@ -263,6 +261,7 @@ button {
 
 .team {
     background-color: var(--bg-color);
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -272,7 +271,6 @@ button {
 }
 
 .team-title {
-    padding-top: 120px;
     margin-bottom: 72px;
     text-align: center;
     font-size: 36px;
@@ -297,6 +295,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -308,11 +307,15 @@ button {
 
 /* -----------------------------GALLERY------------------------ */
 
+.gallery {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .buttons-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -340,19 +343,17 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 120px;
 }
 
 .gallery-item {
-    width: 360px;
-    height: 420px;
-    border: 1px solid var(--border-color);
+    
 }
 
 .gallery-info {
-    margin-top: 32px;
+    padding-top: 32px;
     padding-left: 16px;
-    margin-bottom: 64px;
+    padding-bottom: 32px;
+    border: 1px solid var(--border-color);
 }
 
 .gallery-title {
@@ -361,6 +362,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    margin-bottom: 8px;
 }
 
 .gallery-text {
